@@ -344,7 +344,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 0em;
   margin-bottom: 0px;
   color: var(--primary-color);
-  animation: rotate 2000ms infinite;
+  animation: rotate 0ms infinite;
 }
 
 .loader-ellipses{
@@ -355,19 +355,19 @@ body::-webkit-scrollbar-thumb {
 
 .loader-ellipses span{
   background-color: var(--secondary-color);
-  height: 20px;
-  width: 20px;
+  height: 0px;
+  width: 0px;
   border-radius: 50%;
   opacity: 0;
   animation: loader-grow 2000ms infinite alternate;
 }
 
 .loader-ellipses span:nth-child(2){
-  animation-delay: 400ms;
+  animation-delay: 0ms;
 }
 
 .loader-ellipses span:nth-child(3){
-  animation-delay: 800ms;
+  animation-delay: 0ms;
 }
 
 @keyframes loader-grow {
