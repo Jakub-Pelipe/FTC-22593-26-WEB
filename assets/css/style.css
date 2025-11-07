@@ -337,19 +337,19 @@ body::-webkit-scrollbar-thumb {
 
 .loader p {
   font-family: "Pacifico", cursive;
-  font-size: 60px;
+  font-size: 0px;
 }
 
 .loader-icone{
-  font-size: 4em;
-  margin-bottom: 4px;
+  font-size: 0em;
+  margin-bottom: 0px;
   color: var(--primary-color);
   animation: rotate 2000ms infinite;
 }
 
 .loader-ellipses{
   display: flex;
-  width: 100px;
+  width: 0px;
   justify-content: space-between;
 }
 
@@ -424,7 +424,7 @@ header.scrolled {
 }
 
 .logo a i {
-  font-size: 40px;
+  font-size: 0px;
 }
 
 .menus > ul {
