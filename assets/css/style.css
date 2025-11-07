@@ -359,7 +359,7 @@ body::-webkit-scrollbar-thumb {
   width: 0px;
   border-radius: 50%;
   opacity: 0;
-  animation: loader-grow 2000ms infinite alternate;
+  animation: loader-grow 0ms infinite alternate;
 }
 
 .loader-ellipses span:nth-child(2){
@@ -374,7 +374,7 @@ body::-webkit-scrollbar-thumb {
   to{
     transform: scale(1.2);
     background-color: var(--primary-color);
-    opacity: 100%;
+    opacity: 0%;
   }
 }
 
